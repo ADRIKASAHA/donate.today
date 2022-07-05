@@ -60,14 +60,15 @@ body {
 
 .section {
     display: flex;
+
 }
 
 .tk {
     border: 20px;
     width: 50%;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     /*padding-left: 15px;*/
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     border-radius: 5px;
@@ -80,6 +81,7 @@ body {
 
 }
 
+
 .food {
 
     background-color: rgb(225, 241, 246);
@@ -89,4 +91,43 @@ body {
     padding-left: 15px;
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     border-radius: 8px;
+}
+
+.family {
+    background-color: rgb(251, 229, 235);
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px rgb(47, 28, 28);
+    border-radius: 8px;
+}
+
+.child {
+    background-color: rgb(240, 246, 225);
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px rgb(47, 28, 28);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    background-size: cover;
+   
+}
+
+footer h1 {
+    padding-top: 25px;
+    font-family: 'Lobster', cursive;
+    color: red;
+   
+}
+footer p{
+    color: blueviolet;
+    padding-top: 0px;
 }
