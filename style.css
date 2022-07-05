@@ -52,14 +52,17 @@ body {
 .style h1 {
     font-size: 40px;
 }
-.style p{
+
+.style p {
     font-size: 20px;
     color: gray;
 }
-.section{
+
+.section {
     display: flex;
 }
-.tk{
+
+.tk {
     border: 20px;
     width: 50%;
     text-align: center;
@@ -69,9 +72,21 @@ body {
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     border-radius: 5px;
 }
- .color{
+
+.color {
     color: palevioletred;
     background-color: rgb(247, 227, 235);
     border: 3px solid rgb(229, 107, 148);
 
+}
+
+.food {
+
+    background-color: rgb(225, 241, 246);
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px rgb(47, 28, 28);
+    border-radius: 8px;
 }
