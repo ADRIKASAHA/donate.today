@@ -63,6 +63,11 @@ body {
 
 }
 
+.gap {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
 .tk {
     border: 20px;
     width: 50%;
@@ -81,6 +86,14 @@ body {
 
 }
 
+.icon {
+
+    position: left;
+    padding-bottom: 2%;
+    padding-top: 5%;
+
+}
+
 
 .food {
 
@@ -91,6 +104,7 @@ body {
     padding-left: 15px;
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     border-radius: 8px;
+    padding: 2%;
 }
 
 .family {
@@ -101,6 +115,7 @@ body {
     padding-left: 15px;
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     border-radius: 8px;
+    padding: 2%;
 }
 
 .child {
@@ -111,6 +126,7 @@ body {
     padding-left: 15px;
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     border-radius: 8px;
+    padding: 2%;
 }
 
 footer {
@@ -118,16 +134,45 @@ footer {
     background-color: black;
     color: aliceblue;
     background-size: cover;
-   
+    height: fit-content;
+
+
 }
 
 footer h1 {
     padding-top: 25px;
     font-family: 'Lobster', cursive;
     color: red;
-   
+
+
 }
-footer p{
+
+footer p {
     color: blueviolet;
-    padding-top: 0px;
+    padding-bottom: 4%;
+
+}
+
+.donatenow {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.515), rgb(71, 255, 86));
+    text-shadow: 2px;
+    color: whitesmoke;
+    box-shadow: 10px 50px solid blue;
+
+}
+.pos{
+    
+}
+.half-width {
+    padding: 5%;
+    font-size: x-large;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: left;
+
 }
