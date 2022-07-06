@@ -135,8 +135,7 @@ footer {
     color: aliceblue;
     background-size: cover;
     height: fit-content;
-
-
+    bottom: 0;
 }
 
 footer h1 {
@@ -149,7 +148,7 @@ footer h1 {
 
 footer p {
     color: blueviolet;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 
 }
 
@@ -243,4 +242,16 @@ a:hover {
    font-size: large;
    color: rgb(154, 151, 151);
   box-shadow: 0px 50px 60px 0px  black;
+}
+.footter-lowp ul li{
+	display: inline-block;
+	border-right: 2px solid white;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+.footter-lowp ul li a{
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	list-style-type: none;
 }
