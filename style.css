@@ -163,36 +163,84 @@ footer p {
     text-shadow: 2px;
     color: whitesmoke;
     box-shadow: 10px 50px solid blue;
-    
+
 
 }
-a:hover{
+
+a:hover {
     color: rgb(79, 88, 89);
 }
 
 
 .half-width {
-   
+
     font-size: x-large;
     margin-bottom: 20px;
     width: 50%;
     padding: 55px;
     margin-top: 5%;
 }
-.half-width p{
+
+.half-width p {
     color: gray;
 }
-.img{
+
+.img {
     width: 50%;
     padding-right: 40px;
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     margin: 5%;
+    border-radius: 5px;
 }
-.depend{
-    
+
+.depend {
+
     width: 100%;
     box-shadow: 10px 10px 40px rgb(47, 28, 28);
     margin-left: 2%;
-    
-}
 
+}
+.sub{
+  text-align: center;
+  background-color: bisque;
+  height: 20px;
+  width: 20;
+  padding: 5%;
+  margin: 0% 18% 0% 18%;
+ 
+}
+.email{
+   width: 300px;
+   height: 30px;
+   border-radius: 8px;
+   border: solid;
+   border-color: transparent;
+}
+.btn {
+    padding: 10px 15px 10px 15px;
+    margin-left: -5px;
+    border-radius: 8px;
+    border: solid;
+    border-color: transparent;
+    /*background-color:linear-gradient(rgba(255, 0, 0, 0.515), rgb(71, 255, 86)) ;*/
+    cursor: pointer;
+    text-decoration: none;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.btn :hover{
+        color: rgb(79, 88, 89);
+}
+.d{
+    margin-top: 3%;
+    text-align: center;
+}
+.num{
+    text-align: center;
+    border-radius: none;
+   border-style: none;
+   width: 100%;
+   font-size: large;
+   color: rgb(154, 151, 151);
+  box-shadow: 0px 50px 60px 0px  black;
+}
